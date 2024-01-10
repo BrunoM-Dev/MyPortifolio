@@ -38,13 +38,13 @@ header > .interface {
     align-items: center;
 }
 
-header .logo h1 {
+.logo h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     color: #fff;
 }
 
-header .logo h1 span {
+.logo h1 span {
     font-family: 'Ubuntu', sans-serif;
     font-size:  2.8rem;
     color: var(--color-main);
@@ -204,7 +204,7 @@ section.about .flex {
     font-size: 20px;
 }
 
-.about .txt-about .btn-social button {
+.btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -216,7 +216,7 @@ section.about .flex {
     transition: all 0.2s;
 }
 
-.about .txt-about .btn-social button:hover {
+.btn-social button:hover {
     color: #fff;
 }
 .about .txt-about {
@@ -284,4 +284,43 @@ section.portfolio h2 {
 
 .overlay:hover {
     opacity: 1;
+}
+
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 30px 1px #ffffff1d;
+}
+
+footer .line-footer {
+    padding: 40px 0 ;
+}
+
+footer .line-footer:nth-of-type(2) {
+    padding-bottom: 0;
+}
+
+footer .line-footer.flex {
+    justify-content: space-between;
+}
+
+footer .line-footer p {
+    display: flex;
+    align-items: center;
+}
+
+footer .line-footer p i {
+    color: var(--color-main);
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.borda {
+    border-top: 2px solid var(--color-main);
 }
