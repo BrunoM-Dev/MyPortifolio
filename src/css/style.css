@@ -35,6 +35,8 @@ button:hover {
 
 header{
     padding: 30px 4%;
+    width: 100vw;
+    position: relative;
 }
 
 header > .interface {
@@ -328,4 +330,8 @@ footer .line-footer p a {
 
 .borda {
     border-top: 2px solid var(--color-main);
+}
+
+.esconder {
+    overflow-x: hidden;
 }
