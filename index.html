@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="src/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
     
 </head>
 <body>
@@ -17,7 +18,7 @@
         <div class="interface">
 
             <div class="logo">
-                <a href="#">
+                <a href="#home">
                     <h1>Bruno <br> <span>Macedo</span></h1>
                 </a>
             </div> 
@@ -31,17 +32,33 @@
                 </ul>
             </nav> 
 
+            <div class="mobile-menu-icon">
+                <button onClick="menuShow()"><img src="src/images/menu-mobile/button_mobile.svg" alt="" class="icone-menu-mobile"></button>
+            </div>
+
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contact">
                     <button>Contato</button>
                 </a>
             </div>
             
+
         </div> <!-- Interface -->
+
+        <nav class="mobile-menu" >
+            <ul class="menu">
+                <li><a href="#" onClick="menuShow()">Inicio</a></li>
+                <li ><a href="#services" onClick="menuShow()">Serviços</a></li>
+                <li ><a href="#about" onClick="menuShow()">Sobre</a></li>
+                <li ><a href="#projects" onClick="menuShow()">Projetos</a></li>
+                <li ><a href="#contact" onClick="menuShow()" id="contato">Contato</a></li>
+            </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section class="topo">
+        <section class="topo" id="home">
             <div class="interface">
                 <div class="flex">
                     <div class="text-topo">
@@ -50,7 +67,7 @@
                         <p>Seja bem-vindo ao meu portfólio! Aqui, transformo ideias em código para dar vida a projetos. Explore meu portfólio e descubra o que posso criar para você. Vamos começar essa jornada digital juntos!</p>
 
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="mailto:devbrunomacedo@gmail.com" target="_blank">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -98,7 +115,7 @@
                             Olá, sou desenvolvedor web e entusiasta por tecnologia. Estou constantemente buscando novas formas de criar experiências digitais incríveis, sempre em sintonia com as últimas tendências e inovações na área.
                         </p>
                         <p>
-                            Além do universo digital, minha paixão é alimentada pelo dinamismo e pela energia dos esportes. Nos momentos de lazer, mergulho nesse universo dinâmico em busca de novas perspectivas e inspirações para aplicar na minha jornada digital.
+                            Além do universo digital, minha paixão é alimentada pelo dinamismo e pela energia dos esportes. Nos momentos de lazer, mergulho nesse universo dinâmico em busca de novas perspectivas e inspirações para   aplicar na minha jornada digital.
                         </p>
 
                         <div class="btn-social">
@@ -130,11 +147,11 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="contact">
         <div class="interface">
             <div class="line-footer flex">
                 <div class="logo">
-                    <a href="#">
+                    <a href="#home">
                         <h1>Bruno <br> <span>Macedo</span></h1>
                     </a>
                 </div>
@@ -155,5 +172,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="src/js/scripts.js"></script>
 </body>
 </html>

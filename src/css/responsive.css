@@ -1,0 +1,235 @@
+:root {
+    --color-main: #1063fd; 
+}
+
+@media screen and (max-width: 1300px) {
+    section.topo .image-topo{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    section.topo .image-topo{
+        width: 125%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menu-desktop, .btn-contato {
+        display: none;
+    }
+
+
+    .mobile-menu{
+        display: flex;
+        position: absolute;
+        z-index: 999999999;
+        text-align: center;
+        margin-top: 10px;
+        left: 0;
+        transform: translatex(100%);
+        transition: .5s;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+    }
+
+    .open {
+        transform: translateX(0%);
+    }
+
+    .mobile-menu ul.menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-left: 0;
+        margin: 50px auto ;
+        width: 100%;
+        
+    }
+
+    .mobile-menu li {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+        padding: 1.5rem 0;
+        text-align: center;
+        margin: 0 auto ;
+        width: 100%;
+    }
+
+    .mobile-menu li:hover {
+        background-color: var(--color-main);
+    }
+    
+    .mobile-menu li a {
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .mobile-menu-icon{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 5%;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+
+    .mobile-menu-icon button:hover {
+        box-shadow: none;
+    }
+
+    h2.titulo {
+        font-size: 35px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+    
+    .topo .flex {
+        flex-direction: column-reverse;
+    }
+    
+    section.topo{
+        padding: 20px 8%;
+    }
+    section.topo .text-topo h1{
+        font-size: 30px;
+    }
+    
+    section.topo .image-topo{
+        width: 50%;
+        border-radius: 20% 80% 39% 61% / 40% 48% 52% 60% ;
+        height: 350px;
+    }
+
+    section.topo .image-topo img{
+        width: 260px;
+    }
+
+    section.services {
+        padding: 20px 8%;
+    }
+
+    section.services .flex {
+        gap: 30px;
+    }
+
+    .services .services-box {
+        margin-top: 20px;
+    }
+
+    .services .services-box h3 {
+        font-size: 3rem;
+        margin: 10px 0;
+    }
+
+    section.about{
+        padding: 40px 8% 80px 8%;
+    }
+
+    section.about .flex {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about .img-about {
+        width: 95%;
+        text-align: center;
+    }
+    
+    .about .img-about img {
+        width: 50%;
+        border-radius: 20px;
+    }
+
+    .about .txt-about {
+        width: 100%;
+    }
+    
+
+    .about .txt-about h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .about .btn-social {
+        text-align: center;
+    }
+
+    section.portfolio {
+        padding: 80px 8%;
+        box-shadow: 0 0 40px 10px #ffffff46;
+    }
+    
+    .img-port {
+        max-width: 360px;
+        width: 100%;
+        height: 460px;
+        background-size: cover;
+        background-position: 100% 0%;
+        transition: background 8s;
+        cursor: pointer;
+        border-radius: 30px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        text-align: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    section.topo .image-topo{
+        width: 65%;
+        border-radius: 20% 80% 39% 61% / 40% 48% 52% 60% ;
+        height: 350px;
+    }
+
+    .about .img-about img {
+        width: 70%;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    section.topo .image-topo{
+        width: 80%;
+        border-radius: 20% 80% 39% 61% / 40% 48% 52% 60% ;
+        height: 350px;
+    }
+
+    .about .img-about img {
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    section.topo .image-topo{
+        width: 100%;
+        border-radius: 20% 80% 39% 61% / 40% 48% 52% 60% ;
+        height: 350px;
+    }
+}
