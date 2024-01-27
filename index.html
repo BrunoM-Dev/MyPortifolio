@@ -8,10 +8,12 @@
 
     <title>Portfolio: Bruno Macedo</title>
     <link rel="shortcut icon" href="src/images/favicon.png" type="image/png">
+
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
-    
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="esconder">
@@ -58,7 +60,7 @@
     </header>
 
     <main>
-        <section class="topo" id="home">
+        <section class="topo" id="home" >
             <div class="interface">
                 <div class="flex">
                     <div class="text-topo">
@@ -84,17 +86,17 @@
             <div class="interface">
                 <h2 class="titulo"> MEUS <span> SERVIÇOS</span></h2>
                 <div class="flex">
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up">
                         <i class="bi bi-code-square"></i>
                         <h3>Website</h3>
                         <p>Desenvolvo websites responsivos e intuitivos, focados em proporcionar uma experiência única ao usuário. Cada projeto é cuidadosamente planejado para atender às necessidades específicas, desde a concepção até a implementação.</p>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up">
                         <i class="bi bi-cart4"></i>
                         <h3>E-commerce</h3>
                         <p>Construo soluções de comércio eletrônico eficientes e seguras, proporcionando uma plataforma robusta para a sua loja online. Maximize suas vendas com um design atrativo e uma experiência de compra simplificada.</p>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up">
                         <i class="bi bi-credit-card-2-front"></i>
                         <h3>Aplicações Web</h3>
                         <p>Crio aplicações web personalizadas que atendem às demandas específicas do seu negócio. Desde sistemas de gerenciamento até aplicativos interativos, estou comprometido em transformar suas ideias em realidade funcional.</p>
@@ -111,15 +113,15 @@
                     </div>
                     <div class="txt-about">
                         <h2>MUITO PRAZER, <span>SOU BRUNO MACEDO.</span></h2>
-                        <p>
+                        <p data-aos="fade-left">
                             Olá, sou desenvolvedor web e entusiasta por tecnologia. Estou constantemente buscando novas formas de criar experiências digitais incríveis, sempre em sintonia com as últimas tendências e inovações na área.
                         </p>
-                        <p>
+                        <p data-aos="fade-left">
                             Além do universo digital, minha paixão é alimentada pelo dinamismo e pela energia dos esportes. Nos momentos de lazer, mergulho nesse universo dinâmico em busca de novas perspectivas e inspirações para   aplicar na minha jornada digital.
                         </p>
 
-                        <div class="btn-social">
-                            <a href="https://www.instagram.com/eo_buno/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <div class="btn-social" data-aos="fade-up">
+                            <a href="https://www.instagram.com/eo_buno/" target="_blank" ><button><i class="bi bi-instagram"></i></button></a>
                             <a href="https://github.com/BrunoM-Dev/" target="_blank"><button><i class="bi bi-github"></i></button></a>
                             <a href="https://www.linkedin.com/in/bruno-macedo-frontend/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
                         </div>
@@ -147,7 +149,7 @@
         </section>
     </main>
 
-    <footer id="contact">
+    <footer id="contact" data-aos="fade-up">
         <div class="interface">
             <div class="line-footer flex">
                 <div class="logo">
@@ -173,6 +175,10 @@
         </div>
     </footer>
 
-    <script src="src/js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({delay:100, duration: 600});
+    </script>
+    <!-- <script src="src/js/scripts.js"></script> -->
 </body>
 </html>

@@ -210,6 +210,10 @@
         width: 70%;
         border-radius: 20px;
     }
+
+    .about .txt-about p {
+        text-align: center !important;
+    }
 }
 
 @media screen and (max-width: 650px) {
