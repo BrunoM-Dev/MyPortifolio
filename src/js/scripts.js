@@ -1,3 +1,5 @@
+AOS.init({delay:100, duration: 600});
+
 const menu = {classeMobile: '.mobile-menu'}
 
 function menuShow(){    
