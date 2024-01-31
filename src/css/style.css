@@ -147,9 +147,11 @@ section.services {
 
 section.services .flex {
     gap: 60px;
+    display: inline-flex;
 }
 
 .services .services-box {
+    display: inline;
     color: #fff;
     cursor: pointer;
     padding: 40px;
@@ -157,11 +159,13 @@ section.services .flex {
     margin-top: 40px;
     transition: all 0.4s;
     flex: 1;
+    box-shadow: 0 0 10px #ffffff7e;
+ 
 }
 
 .services .services-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 30px #ffffff7e;
+    transition: .2s;
+    box-shadow: 0 0 30px var(--color-main);
 }
 
 .services .services-box i {
