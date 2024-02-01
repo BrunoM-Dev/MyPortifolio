@@ -250,7 +250,7 @@ section.portfolio {
 section.portfolio .flex {
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 100px;
 
 }
 
