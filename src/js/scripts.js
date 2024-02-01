@@ -16,6 +16,7 @@ function menuShow(){
 
     setTimeout( () => {
         document.querySelector('header').classList.add('esconder')
+        menuMobile.classList.remove('open')
         document.querySelector('.icone-menu-mobile').src = "src/images/menu-mobile/button_mobile.svg";
     }, 4000)
 }

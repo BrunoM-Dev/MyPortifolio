@@ -171,13 +171,27 @@
     }
 
     section.portfolio {
-        padding: 80px 8%;
+        padding: 80px 4% !important;
         box-shadow: 0 0 40px 10px #ffffff46;
     }
-    
+
+    .portfolio .project {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project .description-project {
+        width: 80vw;
+        margin-top: 20px;
+    }
+
+    .tecnologias-utilizadas .skill-tech {
+        width: 70px;
+    }
+
     .img-port {
         max-width: 360px;
-        width: 100%;
+        width: 80vw;
         height: 460px;
         background-size: cover;
         background-position: 100% 0%;
@@ -236,5 +250,14 @@
         width: 100%;
         border-radius: 20% 80% 39% 61% / 40% 48% 52% 60% ;
         height: 350px;
+    }
+
+    .description-project .tecnologias-utilizadas{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tecnologias-utilizadas .skill-tech {
+        width: 110px;
     }
 }
