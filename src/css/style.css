@@ -184,7 +184,7 @@ section.services .flex {
 
 
 section.about{
-    overflow-x: hidden;
+    overflow: hidden;
     padding: 40px 4% 80px 4%;
 }
 
