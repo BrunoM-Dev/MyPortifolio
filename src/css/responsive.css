@@ -171,17 +171,12 @@
     }
 
     section.portfolio {
-        padding: 80px 4% !important;
+        padding: 80px 8% !important;
         box-shadow: 0 0 40px 10px #ffffff46;
     }
 
-    .portfolio .project {
-        flex-direction: column;
-        width: 100%;
-    }
-
     .project .description-project {
-        width: 80vw;
+        width: 70vw;
         margin-top: 20px;
     }
 
