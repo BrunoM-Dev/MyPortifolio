@@ -1,5 +1,5 @@
 :root {
-    --color-main: #1DBDFE; 
+    --blue-main: #1DBDFE; 
 }
 
 .mobile-menu-icon, .mobile-menu{
@@ -22,11 +22,11 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: var(--color-main);
+    color: var(--blue-main);
 }
 
 button:hover {
-    box-shadow: 1px 1px 8px var(--color-main);
+    box-shadow: 1px 1px 8px var(--blue-main);
     transform: scale(1.05);
     color: #fff;
 } 
@@ -53,7 +53,7 @@ header > .interface {
 .logo h1 span {
     font-family: 'Ubuntu', sans-serif;
     font-size:  2.8rem;
-    color: var(--color-main);
+    color: var(--blue-main);
 }
 
 header nav ul li {
@@ -76,7 +76,7 @@ header a:hover{
     padding: 10px 40px;
     font-size: 1.8rem;
     font-weight: 600;
-    background-color: var(--color-main);
+    background-color: var(--blue-main);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -101,7 +101,7 @@ section.topo .text-topo h1{
 }
 
 section.topo .text-topo h1 span {
-    color: var(--color-main);
+    color: var(--blue-main);
 }
 
 section.topo .text-topo p {
@@ -164,11 +164,11 @@ section.services .flex {
 
 .services .services-box:hover {
     transition: .2s;
-    box-shadow: 0 0 30px var(--color-main);
+    box-shadow: 0 0 30px var(--blue-main);
 }
 
 .services .services-box i {
-    color: var(--color-main);
+    color: var(--blue-main);
     font-size: 80px;
 }
 
@@ -203,7 +203,7 @@ section.about .flex {
 }
 
 .about .txt-about h2 span {
-    color: var(--color-main);
+    color: var(--blue-main);
     display: block;
 }
 
@@ -218,7 +218,7 @@ section.about .flex {
     height: 60px;
     border-radius: 50%;
     border: 0;
-    background-color: var(--color-main);
+    background-color: var(--blue-main);
     font-size: 25px;
     cursor: pointer;
     margin: 0 5px;
@@ -360,7 +360,7 @@ footer .line-footer p {
 }
 
 footer .line-footer p i {
-    color: var(--color-main);
+    color: var(--blue-main);
     font-size: 22px;
 }
 
@@ -372,7 +372,7 @@ footer .line-footer p a {
 }
 
 .borda {
-    border-top: 2px solid var(--color-main);
+    border-top: 2px solid var(--blue-main);
 }
 
 .esconder {
